@@ -75,14 +75,14 @@ hr {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 32px;
 	font-weight: 700;
-	color: #1f386e;
+	color: #000000;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	color: #1f386e;
+	color: #000000;
 	font-size: 14px;
 	font-weight: 700;
 	padding: 8px 2px;
@@ -107,7 +107,7 @@ hr {
 #menu .phone span {
 	font-size: 14px;
 	display: block;
-	color: #1f386e;
+	color: #000000;
 }
 .navbar-toggle {
 	border-radius: 0;
