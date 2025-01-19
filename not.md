@@ -1,3 +1,3 @@
-- Renk paletine uygun renklendirmeler yapılacak.
-
+- Logo ve navigation ın düzeni simetrik olarak ayarlanacak
+- sayfanın genel uyumu renk paletine göre ayarlanacak
 - Uygun fotolar ve başlıklar eklenecek.
