@@ -1,3 +1,4 @@
-- Logo ve navigation ın düzeni simetrik olarak ayarlanacak
-- sayfanın genel uyumu renk paletine göre ayarlanacak
+- Navigation menu hizalaması yap.
+- İletişim kısmındaki renk uyumlarını ayarla.
+- Sayfanın genel uyumu renk paletine göre ayarlanacak.
 - Uygun fotolar ve başlıklar eklenecek.

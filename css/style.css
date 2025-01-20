@@ -63,13 +63,13 @@ hr {
 }
 /* Navigation */
 #menu {
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
 	padding:20px;
 	transition: all 0.8s;
 	background-color: #cdcbbe; /* Logonun arka plan rengi */
 	box-shadow: none; /* Temiz bir görünüm için gölgeyi kaldırdık */
-	display: flex; /* Flexbox ile elemanları hizalama */
-    align-items: center; /* Dikey ortalama */
-    justify-content: space-between;
 }
 
 #menu.navbar-default {
@@ -85,9 +85,9 @@ hr {
     width: auto; /* Oranları koruduk */
     display: block; /* Inline yerine blok gösterim */
     margin: 0; /* Varsayılan boşlukları kaldırdık */
-    position: relative; /* Daha hassas konumlandırma için ayar */
-    left: -400px; /* Logoyu sola taşıdık */
-    vertical-align: middle; /* Dikey ortalama */
+	position: relative; /* Daha hassas konumlandırma için ayar */
+    left: -300px; /* Logoyu sola taşıdık */
+    vertical-align: middle; /* Dikey ortalama */	
 }
 
 #menu.navbar-default .navbar-nav > li > a {
@@ -115,7 +115,7 @@ hr {
 
 #menu .phone {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 400;
 	color: #000000; /* Siyah renk */
 	text-align: right;
@@ -123,7 +123,7 @@ hr {
 }
 
 #menu .phone span {
-	font-size: 14px;
+	font-size: 18px;
 	display: block;
 	color: #000000; /* Siyah renk */
 }
@@ -164,7 +164,7 @@ hr {
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #e52f3c;
+	background-color: #654321;
 	padding: 14px 20px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -174,8 +174,8 @@ hr {
 	transition: all 0.3s;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #fff;
-	background-color: #cdcbbe;
+	color: #654321;
+	background-color: #fff;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -234,24 +234,24 @@ header .intro-text {
 /* Get Touch Section */
 #get-touch {
 	padding: 40px 0 30px;
-	color: rgba(255,255,255,.7);
-	background: #1f386e;
+	color: #494842;
+	background: #cdcbbe;
 }
 #get-touch h3 {
 	font-size: 24px;
 	font-weight: 400;
-	color: #fff;
+	color: #494842;
 	margin: 0 0 10px 0;
 }
 #get-touch .btn-custom {
 	margin: 0;
-	background: transparent;
-	border: 2px solid #fff;
+	background: #654321;
+	border: 2px solid #494842;
 }
 #get-touch .btn-custom:hover {
-	color: #1f386e;
+	color: #494842;
 	background: #fff;
-	border: 2px solid #fff;
+	border: 2px solid #494842;
 }
 /* About Section */
 #about {
@@ -410,7 +410,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: #1f386e;
+	background: #cdcbbe;
 	color: rgba(255,255,255,.65);
 }
 #contact .section-title {
