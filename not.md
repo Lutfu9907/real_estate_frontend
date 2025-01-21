@@ -1,11 +1,5 @@
 - Navigation menu hizalaması yap.
 
-- Yazıların rengini koyulaştır.
-
-- Ücretsiz teklif-gönder butonunlarında hata var.
-
-- İletişim kısmındaki renk uyumlarını ayarla.
-
-- Sayfanın genel uyumu renk paletine göre ayarlanacak.
+- Mobil,pc,notebook gibi ekran boyutu ayarlaması yapılacak.
 
 - Uygun fotolar ve başlıklar eklenecek.
