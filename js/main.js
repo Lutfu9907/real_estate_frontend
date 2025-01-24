@@ -38,9 +38,24 @@ function main() {
             effect: 'slideDown',  
             keyboardNav: true,                            
         });
-		
 }());
-
-
 }
 main();
+
+let map;
+
+async function initMap() {
+
+  const { Map } = await google.maps.importLibrary("maps");
+
+  map = new Map(document.getElementById("map"), {
+    center: { lat: 41.18409821400485, lng: 28.719780249559054 }, 
+    zoom: 12,
+  });
+  new google.maps.Marker({
+    position: { lat:41.18409821400485 , lng:28.719780249559054  },
+    map: map,
+  });
+}
+initMap()
+

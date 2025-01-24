@@ -86,7 +86,7 @@ hr {
     display: block;
     margin: 45px 0 0; 
 	position: relative; 
-    left: -250px;
+    left: -225px;
     vertical-align: middle; 	
 }
 
@@ -103,13 +103,13 @@ hr {
 }
 
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #ce2a36; 
+	color: #654321; 
 }
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #ce2a36 !important;
+	color: #654321!important;
 	background-color: transparent;
 }
 
@@ -172,6 +172,7 @@ hr {
 	font-weight: 600;
 	border-radius: 4px;
 	transition: all 0.3s;
+	border-radius: 10px;
 }
 .btn-custom:hover {
 	color: #654321;
@@ -322,6 +323,7 @@ header .intro-text {
 	display: block;
 	width: 100%;
 	height: auto;
+	border-radius: 10px;
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
@@ -344,6 +346,7 @@ header .intro-text {
 .portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
+	border-radius: 10px;
 }
 .hover-bg .hover-text {
 	position: absolute;
@@ -356,6 +359,7 @@ header .intro-text {
 	width: 100%;
 	opacity: 0;
 	transition: all 0.5s;
+	border-radius: 10px;
 }
 .hover-bg .hover-text>h4 {
 	opacity: 0;
@@ -380,6 +384,8 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
+	overflow: hidden;
+  	position: relative;
 }
 #testimonials i {
 	color: #e6e6e6;
@@ -389,6 +395,9 @@ header .intro-text {
 .testimonial {
 	position: relative;
 	padding: 20px;
+	flex: 0 0 33%;
+	min-width: 300px; 
+	box-sizing: border-box;
 }
 .testimonial-image {
 	float: left;
@@ -413,6 +422,20 @@ header .intro-text {
 	font-size: 13px;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+#testimonials .row {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 20px; 
+	animation: slide 15s linear infinite;
+}
+@keyframes slide {
+	0% {
+	  transform: translateX(0);
+	}
+	100% {
+	  transform: translateX(-100%);
+	}
 }
 /* Contact Section */
 #contact {
