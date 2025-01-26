@@ -1,5 +1,5 @@
 - Frontend
 
-- Haritaya contact kısmı ekle.
+- Haritayı container ın içine tam doldur yarısında kalsın.
 
-- Mobilde de navbar falan patlak onada el at.
+- Mobilde logo, navbar ve şimdi arayın kısmını ayarla.
