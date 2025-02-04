@@ -47,13 +47,12 @@ let map;
 async function initMap() {
 
   const { Map } = await google.maps.importLibrary("maps");
-  const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
   map = new Map(document.getElementById("map"), {
     center: { lat: 41.181636679065875, lng: 28.745376139024895 }, 
     zoom: 12,
   });
-  new AdvancedMarkerElement({
+  new google.maps.Marker({
     position: { lat: 41.181636679065875, lng: 28.745376139024895 },
     map: map,
   });
