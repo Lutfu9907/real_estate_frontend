@@ -475,6 +475,21 @@ header .intro-text {
 	  transform: translateX(-100%);
 	}
 }
+
+@media (max-width:768px) {
+	@keyframes slide {
+		0%{
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-200%);
+		}
+	}
+
+	#testimotionals .row{
+		animation-duration: 25s;
+	}
+}
 /* Contact Section */
 #contact {
 	font-family: 'Montserrat', sans-serif;
