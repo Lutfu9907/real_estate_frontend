@@ -42,20 +42,3 @@ function main() {
 }
 main();
 
-let map;
-
-async function initMap() {
-
-  const { Map } = await google.maps.importLibrary("maps");
-
-  map = new Map(document.getElementById("map"), {
-    center: { lat: 41.181636679065875, lng: 28.745376139024895 }, 
-    zoom: 12,
-  });
-  new google.maps.Marker({
-    position: { lat: 41.181636679065875, lng: 28.745376139024895 },
-    map: map,
-  });
-}
-initMap()
-
